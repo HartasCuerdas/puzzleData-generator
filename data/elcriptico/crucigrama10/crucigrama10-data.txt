@@ -1,0 +1,117 @@
+# -*- coding: utf-8 -*-
+
+def getArrays():
+
+  across_answers = [
+    [ 1, "Maíz" ],
+    [ 4, "Pimentón" ],
+    [ 10, "Toronja" ],
+    [ 11, "Trámite" ],
+    [ 12, "Salchichas" ],
+    [ 13, "Kiwi" ],
+    [ 14, "Absurda" ],
+    [ 15, "Mango" ],
+    [ 16, "Fruta" ],
+    [ 19, "Vinagre" ],
+    [ 22, "Ebro" ],
+    [ 23, "Embriagada" ],
+    [ 25, "Amnesia" ],
+    [ 26, "Unísono" ],
+    [ 27, "Catalana" ],
+    [ 28, "Azar" ]
+  ]
+
+  down_answers = [
+    [ 2, "Atriles" ],
+    [ 3, "Zanahoria" ],
+    [ 4, "Plancha" ],
+    [ 5, "Matraca" ],
+    [ 6, "Nial" ],
+    [ 7, "Ofician" ],
+    [ 8, "Atisba" ],
+    [ 9, "Pepino" ],
+    [ 15, "Mandarina" ],
+    [ 16, "Fresas" ],
+    [ 17, "Ucrania" ],
+    [ 18, "Mampara" ],
+    [ 19, "Verdura" ],
+    [ 20, "Guayola" ],
+    [ 21, "Enanos" ],
+    [ 24, "Aspa" ]
+  ]
+
+  answers = [across_answers, down_answers]
+
+  #position, startx, starty
+  coords = [
+    [ 2, 1 ],
+    [ 3, 1 ],
+    [ 5, 1 ],
+    [ 7, 1 ],
+    [ 9, 1 ],
+    [ 11, 1 ],
+    [ 13, 1 ],
+    [ 1, 2 ],
+    [ 15, 2 ],
+    [ 1, 3 ],
+    [ 9, 3 ],
+    [ 1, 5 ],
+    [ 12, 5 ],
+    [ 1, 7 ],
+    [ 11, 7 ],
+    [ 1, 9 ],
+    [ 3, 9 ],
+    [ 7, 9 ],
+    [ 9, 9 ],
+    [ 13, 9 ],
+    [ 15, 9 ],
+    [ 1, 11 ],
+    [ 6, 11 ],
+    [ 5, 12 ],
+    [ 1, 13 ],
+    [ 9, 13 ],
+    [ 2, 15 ],
+    [ 11, 15 ]
+  ]
+
+  across_clues = [
+    [ 1, "19 vertical confundida, iza mil (4)" ],
+    [ 4, "19 vertical con número de quijada (8)" ],
+    [ 10, "Astado al norte se ríe de esa 16 horizontal (7)" ],
+    [ 11, "Intente comerse mi diligencia (7)" ],
+    [ 12, "Embutido hecho con condimento y bebidas fermentadas (10)" ],
+    [ 13, "En wiki tacha 16 horizontal (4)" ],
+    [ 14, "En maltrecho abad el sur es cosa ridícula (7)" ],
+    [ 15, "Asa 16 horizontal (5)" ],
+    [ 16, "Crece en los árboles cabeza de foca en la vía (5)" ],
+    [ 19, "Ácido contra Regina desquiciada (7)" ],
+    [ 22, "Borracho sale uno a río español (4)" ],
+    [ 23, "Borracha, me revuelvo cuando la primera entra en cuadrilla (10)" ],
+    [ 25, "En continente hay mil puntos de olvido (7)" ],
+    [ 26, "¿Cantamos todos juntos? Arregla sí o un no!" ],
+    [ 27, "Prueba pelo esa española (8)" ],
+    [ 28, "El destino es buscar sin comenzar (4)" ]
+  ]
+
+  down_clues = [
+    [ 2. Desarmo literas para construir facistoles (7)" ],
+    [ 3. 19 vertical para última mujer que está con uno en un lapso de tiempo (9)" ],
+    [ 4. Alisa lámina (7)" ],
+    [ 5. Con mil asalta los sentidos! (7)" ],
+    [ 6. Montón de paja fantástico sin la General Electric (4)" ],
+    [ 7. Celebran que nada termina con abrazo de espías (7)" ],
+    [ 8. Encuentra escondido algo gratis? Barato! (6)" ],
+    [ 9. 19 vertical del pequeño Pepe? (6)" ],
+    [ 15. Envía al río primera 16 horizontal (9)" ],
+    [ 16. Taladros de 16 horizontales (6)" ],
+    [ 17. Interminable 6 sostiene a cura ebrio en país europeo (7)" ],
+    [ 18. A mil protege con biombo (7)" ],
+    [ 19. Observar despiadada que sale de la tierra (7)" ],
+    [ 20. Estupenda onda? Mentira! (7)" ],
+    [ 21. Hernando está entre puntos pequeños (6)" ],
+    [ 24. Carta alta pa’ Cruz (4)" ]
+  ]
+
+  clues = [across_clues, down_clues]
+
+  return answers, coords, clues

@@ -1,0 +1,120 @@
+# -*- coding: utf-8 -*-
+
+def getArrays():
+
+  across_answers = [
+    [ 1, "Cancerbero" ],
+    [ 6, "Joya" ],
+    [ 10, "Reo" ],
+    [ 11, "Carismatico" ],
+    [ 12, "Amais" ],
+    [ 13, "Alumbrar" ],
+    [ 14, "Acordar" ],
+    [ 16, "Cola" ],
+    [ 19, "Alma" ],
+    [ 21, "Oraculo" ],
+    [ 24, "Infusion" ],
+    [ 26, "Tutea" ],
+    [ 28, "Representar" ],
+    [ 29, "Así" ],
+    [ 30, "Atar" ],
+    [ 31, "Parrandero" ]
+  ]
+
+  down_answers = [
+    [ 1, "Carcajada" ],
+    [ 2, "Neonat" ],
+    [ 3, "Excusado" ],
+    [ 4, "Barba" ],
+    [ 5, "Resquicio" ],
+    [ 7, "Oviparo" ],
+    [ 8, "Amor" ],
+    [ 9, "Garbo" ],
+    [ 15, "Refrigera" ],
+    [ 17, "Aromatico" ],
+    [ 18, "Cantaran" ],
+    [ 20, "Manopla" ],
+    [ 22, "Ultraje" ],
+    [ 23, "Cures" ],
+    [ 25, "Notar" ],
+    [ 27, "Proa" ]
+  ]
+
+  answers = [across_answers, down_answers]
+
+  #position, startx, starty
+  coords = [
+    [ 1, 1 ],
+    [ 3, 1 ],
+    [ 5, 1 ],
+    [ 7, 1 ],
+    [ 9, 1 ],
+    [ 12, 1 ],
+    [ 13, 1 ],
+    [ 15, 1 ],
+    [ 11, 2 ],
+    [ 1, 3 ],
+    [ 5, 3 ],
+    [ 1, 5 ],
+    [ 7, 5 ],
+    [ 1, 7 ],
+    [ 7, 7 ],
+    [ 12, 7 ],
+    [ 15, 7 ],
+    [ 11, 8 ],
+    [ 1, 9 ],
+    [ 3, 9 ],
+    [ 9, 9 ],
+    [ 13, 9 ],
+    [ 5, 10 ],
+    [ 2, 11 ],
+    [ 9, 11 ],
+    [ 11, 11 ],
+    [ 1, 12 ],
+    [ 1, 13 ],
+    [ 13, 13 ],
+    [ 1, 15 ],
+    [ 6, 15 ]
+  ]
+
+  across_clues = [
+    [ 1, "Perro griego arquero?" ],
+    [ 6, "Risa de papá Noel ahora es un tesoro" ],
+    [ 10, "Preso de nota redonda" ],
+    [ 11, "Extraña mística en costoso seductor" ],
+    [ 12, "Adoráis la primera que cae en hoyo hacia Occidente" ],
+    [ 13, "Iluminar para dar a luz" ],
+    [ 14, "Apoyar y abrazar a cabeza de ratón para contratar" ],
+    [ 16, "Pegante de trasero" ],
+    [ 19, "Mala, mala como complemento del cuerpo" ],
+    [ 21, "Reza por el trasero el de Delfos" ],
+    [ 24, "Está de moda, esa amalgama de té" ],
+    [ 26, "Tu antorcha te habla de tu" ],
+    [ 28, "Simbolizar al embalsar atrapa criatura sin fin" ],
+    [ 29, "De esta manera agarré" ],
+    [ 30, "Amarrar ese roedor que regresa" ],
+    [ 31, "Árbol que rondé enloquecido por juerguista." ]
+  ]
+
+  down_clues = [
+    [ 1, "Voz de mando en volumen – sucia risotada" ],
+    [ 2, "Elemento que amarro para recién nacido" ],
+    [ 3, "Letrina que perdona nota" ],
+    [ 4, "Al pub acudía descabezado y con pelo en la cara" ],
+    [ 5, "Rendija para vaca con jamba" ],
+    [ 7, "Importante primera se cubre de precioso metal y pone huevos" ],
+    [ 8, "Cariño al ascenso de la ciudad eterna" ],
+    [ 9, "Elegancia de la Greta!" ],
+    [ 15, "Enfría cuando referí gran desorden sin punto" ],
+    [ 17, "Perfumado olor de costarricense" ],
+    [ 18, "Nácar tan sucio lo entonarán" ],
+    [ 20, "Estrategia corta bajo extremidad con guante" ],
+    [ 22, "Agravio hallado en azul traje de fiesta" ],
+    [ 23, "Cobre de vaca para que sanes" ],
+    [ 25, "Roedor asciende para hacer ver" ],
+    [ 27, "Experto con primera al frente del barco" ]
+  ]
+
+  clues = [across_clues, down_clues]
+
+  return answers, coords, clues

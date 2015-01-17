@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+
+def getArrays():
+
+  across_answers = [
+
+  ]
+
+  down_answers = [
+
+  ]
+
+  answers = [across_answers, down_answers]
+
+  #position, startx, starty
+  coords = [
+
+  ]
+
+  across_clues = [
+
+  ]
+
+  down_clues = [
+
+  ]
+
+  clues = [across_clues, down_clues]
+
+  return answers, coords, clues

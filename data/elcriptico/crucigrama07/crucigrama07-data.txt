@@ -1,0 +1,127 @@
+# -*- coding: utf-8 -*-
+
+def getArrays():
+
+  across_answers = [
+    [ 1, "Roquefort" ],
+    [ 6, "Brie" ],
+    [ 11, "Unifica" ],
+    [ 12, "Noticia" ],
+    [ 13, "Santos" ],
+    [ 14, "Manchego" ],
+    [ 16, "Emmental" ],
+    [ 18, "Anca" ],
+    [ 21, "Sien" ],
+    [ 23, "Recamara" ],
+    [ 27, "Ultramar" ],
+    [ 29, "Trigal" ],
+    [ 31, "Imagine" ],
+    [ 32, "Dolores" ],
+    [ 33, "Sion" ],
+    [ 34, "Parmesano" ]
+  ]
+
+  down_answers = [
+    [ 2, "Oriente" ],
+    [ 3, "Uniforme" ],
+    [ 4, "Feas" ],
+    [ 5, "Ronca" ],
+    [ 7, "Recrean" ],
+    [ 8, "Elaboran" ],
+    [ 9, "Queso" ],
+    [ 10, "Ataca" ],
+    [ 15, "Once" ],
+    [ 17, "Asan" ],
+    [ 19, "Asturias" ],
+    [ 20, "Cabrales" ],
+    [ 22, "Estrado" ],
+    [ 23, "Auguran" ],
+    [ 25, "Datil" ],
+    [ 26, "Aliso" ],
+    [ 28, "Acera" ],
+    [ 30, "Edam" ]
+  ]
+
+  answers = [across_answers, down_answers]
+
+  #position, startx, starty
+  coords = [
+    [ 1, 2 ],
+    [ 1, 3 ],
+    [ 1, 5 ],
+    [ 1, 7 ],
+    [ 1, 9 ],
+    [ 1, 12 ],
+    [ 1, 13 ],
+    [ 1, 15 ],
+    [ 2, 1 ],
+    [ 2, 11 ],
+    [ 3, 1 ],
+    [ 3, 9 ],
+    [ 5, 1 ],
+    [ 5, 8 ],
+    [ 6, 7 ],
+    [ 7, 3 ],
+    [ 7, 9 ],
+    [ 7, 12 ],
+    [ 8, 1 ],
+    [ 8, 11 ],
+    [ 9, 1 ],
+    [ 9, 3 ],
+    [ 9, 6 ],
+    [ 9, 13 ],
+    [ 10, 5 ],
+    [ 10, 15 ],
+    [ 11, 1 ],
+    [ 11, 7 ],
+    [ 11, 10 ],
+    [ 12, 9 ],
+    [ 13, 1 ],
+    [ 13, 9 ],
+    [ 15, 1 ],
+    [ 15, 6 ]
+  ]
+
+  across_clues = [
+    [ 1, "9 se oculta cuando enroque fortalece posición" ],
+    [ 6, "Un 9 hecho con bromo irlandés" ],
+    [ 11, "Agrupa un corto lugar de estudio y una descorazonada granja" ],
+    [ 12, "Toni se mezcla con espías – vaya suceso!" ],
+    [ 13, "Equipo de fútbol brasileño da auxilio y acoge a hormiga inglesa" ],
+    [ 14, "Un 9 del hogar del Quijote?" ],
+    [ 16, "Inicialmente mucho lamenté mezclarme con ese 9" ],
+    [ 18, "Pierna a punto con estado americano" ],
+    [ 21, "Oigo número en la cabeza" ],
+    [ 23, "Acerca de ese aparato fotográfico en el cuarto" ],
+    [ 27, "Súper océano muy lejos" ],
+    [ 29, "Entre los bordes de tal capital europea hay un campo de cereal" ],
+    [ 31, "Piense en un enigma incomprensible" ],
+    [ 32, "Suplicios de aroma contenido por ansia hacia Occidente" ],
+    [ 33, "Afirmativo va, "negativo viene en la tierra prometida" ],
+    [ 34, "9 de dos mil que aquella rechaza" ]
+  ]
+
+  down_clues = [
+    [ 2, "Guíe hacia el este" ],
+    [ 3, "Monótono hábito" ],
+    [ 4, "Convicción sobre héroe tiene resultados desagradables" ],
+    [ 5, "Piedra con nitrógeno resolla" ],
+    [ 7, "Vuelven a hacer y entretienen!" ],
+    [ 8, "Enarbola caos que preparan" ],
+    [ 9, "No entiendo! Debajo está la cuajada" ],
+    [ 10, "Asalta y amarra sobre media 18" ],
+    [ 15, "Número de reverberación sube con nitrógeno" ],
+    [ 17, "Cocinan mango del norte" ],
+    [ 19, "Héroe con medio instrumento de viento en desembocaduras de provincia española" ],
+    [ 20, "Ese 9 de 19 está hecho de cuerdas que abarcan al sol egipcio" ],
+    [ 22, "Plataforma de nación que incluye al cura" ],
+    [ 24, "Predicen oro de paloma Filipina al Norte" ],
+    [ 25, "De loco tilda al fruto de palmera" ],
+    [ 26, "Aplano ese árbol?" ],
+    [ 28, "Sobre sin carbón en el andén" ],
+    [ 30, "9 hecho en Inglaterra se sube" ]
+  ]
+
+  clues = [across_clues, down_clues]
+
+  return answers, coords, clues

@@ -1,0 +1,126 @@
+# -*- coding: utf-8 -*-
+
+def getArrays():
+
+  across_answers = [
+    [ 1, "Fantasma" ],
+    [ 4, "Carpas" ],
+    [ 9, "Sombra" ],
+    [ 10, "Desgajar" ],
+    [ 12, "Luna" ],
+    [ 13, "Cementerio" ],
+    [ 15, "Espanta" ],
+    [ 16, "Prusia" ],
+    [ 20, "Acecha" ],
+    [ 22, "Turpial" ],
+    [ 25, "Desencanto" ],
+    [ 27, "Obus" ],
+    [ 30, "Regocijo" ],
+    [ 31, "Estuco"],
+    [ 32, "Sangre" ],
+    [ 33, "Calabaza" ]
+  ]
+
+  down_answers = [
+    [ 1, "Fusila" ],
+    [ 2, "Numen" ],
+    [ 3, "Acre" ],
+    [ 5, "Argot" ],
+    [ 6, "Pajaros" ],
+    [ 7, "Sarcomas" ],
+    [ 8, "Jejen" ],
+    [ 11, "Renta" ],
+    [ 14, "Mach" ],
+    [ 17, "Ropa" ],
+    [ 18, "Calderos" ],
+    [ 19, "Culto" ],
+    [ 21, "Ensogan" ],
+    [ 23, "Canje" ],
+    [ 24, "Escoba" ],
+    [ 26, "Nacar" ],
+    [ 28, "Bruja" ],
+    [ 29, "Isla" ]
+  ]
+
+  answers = [across_answers, down_answers]
+
+  #position, startx, starty
+  coords = [
+    [ 1, 1 ],
+    [ 3, 1 ],
+    [ 5, 1 ],
+    [ 10, 1 ],
+    [ 11, 1 ],
+    [ 13, 1 ],
+    [ 15, 1 ],
+    [ 9, 2 ],
+    [ 1, 3 ],
+    [ 8, 3 ],
+    [ 7, 4 ],
+    [ 1, 5 ],
+    [ 6, 5 ],
+    [ 5, 6 ],
+    [ 2, 7 ],
+    [ 10, 7 ],
+    [ 11, 7 ],
+    [ 1, 8 ],
+    [ 9, 8 ],
+    [ 1, 9 ],
+    [ 3, 9 ],
+    [ 8, 9 ],
+    [ 7, 10 ],
+    [ 15, 10 ],
+    [ 1, 11 ],
+    [ 5, 11 ],
+    [ 12, 11 ],
+    [ 13, 11 ],
+    [ 11, 12 ],
+    [ 1, 13 ],
+    [ 10, 13 ],
+    [ 1, 15 ],
+    [ 8, 15 ]
+  ]
+
+  across_clues = [
+    [ 1, "Espíritu con bebida que no termina por dificultad para respirar (8)" ],
+    [ 4, "Refugios de peces (6)" ],
+    [ 9, "En penumbra, un exceso: entran mil! (6)" ],
+    [ 10, "Tolerar que entre gas escapado al caer (8)" ],
+    [ 12, "Satélite cancela interminable regreso (4)" ],
+    [ 13, "En mortero iré torcido al lugar de los muertos (10)" ],
+    [ 15, "6, Peleles pesan deshilachadas cubiertas que arropan recipiente sin centro (14)" ],
+    [ 16, "Suave país es antiguo reino alemán (6)" ],
+    [ 20, "Persigue a carbón con lanza (6)" ],
+    [ 22, "En semejante ciudad sumeria, número irracional y pájaro (7)" ],
+    [ 25, "Dense loca tonada que resulta en desilusión (10)" ],
+    [ 27, "Ningún vehículo para cohete (4)" ],
+    [ 30, "De regreso agarra en mando esa felicidad (8)" ],
+    [ 31, "Yeso es francés de uranio y compañía (6)" ],
+    [ 32, "Linaje oculto de San Gregorio (6)" ],
+    [ 33, "Mete mano en vegetal (8)" ]
+  ]
+
+  down_clues = [
+    [ 1, "Ejecuta al sufí condenado (6)" ],
+    [ 2, "Musa de hombres ingleses sostiene nitrógeno y uranio (5)" ],
+    [ 3, "Áspera superficie (4)" ],
+    [ 5, "Jerga en barco de Jasón traumatiza cabeza (5)" ],
+    [ 6, "Ver 15" ],
+    [ 7, "Cánceres al sur pero después de curva (8)" ],
+    [ 8, "Insecto se ríe al norte (5)" ],
+    [ 11, "Acerca de tan delirante riqueza (5)" ],
+    [ 14, "Varón no acaba a esa velocidad (4)" ],
+    [ 17, "Indumentaria oculta es caro pañuelo (4)" ],
+    [ 18, "Esas ollas producen calor, sed, locura (8)" ],
+    [ 19, "Sabio escondido sin nada (5)" ],
+    [ 21, "Amarran medio tren sobre ganso despavorido (6)" ],
+    [ 23, "Cambio perro que ríe (5)" ],
+    [ 24, "Es Baco borracho con cepillo (6)" ],
+    [ 26, "Concha de rana destripada que comió carbón (5)" ],
+    [ 28, "Hechicera usa bromo y uranio y se ríe (5)" ],
+    [ 29, "Si la ordenan, encuentran que está rodeada de agua (4)" ] 
+  ]
+
+  clues = [across_clues, down_clues]
+
+  return answers, coords, clues
